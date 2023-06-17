@@ -1,0 +1,80 @@
+body {
+  font-family: arial;
+  margin: 20px;
+  background-color: lightblue;
+}
+
+h1 {
+  margin-left: 400px;
+  font-size: 50px;
+}
+
+.ekub-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 10px;
+  align-items: stretch;
+  row-gap: 30px;
+  vertical-align: middle;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.total-grid {
+  display: grid;
+  grid-template-columns: 200px;
+  column-gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.name-input,
+.phone-input,
+.amount-input {
+  font-size: 15px;
+  padding: 8px;
+}
+
+.add-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;     
+}
+
+.delete-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.draw-button {
+  background-color: lightgray;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.draw {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
